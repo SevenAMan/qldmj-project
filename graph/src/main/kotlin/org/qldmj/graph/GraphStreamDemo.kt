@@ -1,6 +1,10 @@
 package org.qldmj.graph
 
+
 import org.graphstream.graph.implementations.SingleGraph
+import org.slf4j.LoggerFactory
+
+class GraphStreamDemo
 
 fun main() {
     System.setProperty("org.graphstream.ui", "swing")
@@ -13,5 +17,6 @@ fun main() {
         addEdge("23", "2", "3")
         addEdge("31", "3", "1")
     }
-    graph.display()
+    LoggerFactory.getLogger(GraphStreamDemo::class.java).info("Stream Graph")
+    val display = graph.display()
 }
