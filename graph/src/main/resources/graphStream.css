@@ -1,0 +1,30 @@
+node {
+    size: 40px, 40px;
+    fill-color: white;
+    fill-mode: image-scaled;
+    fill-image: url("icon/start.png");
+    text-offset: 0px, 40px;
+    text-size: 20px;
+    text-padding: 3px;
+    text-background-color: #d7c7c7;
+    text-background-mode: rounded-box;
+    shape: circle;
+    stroke-mode: plain;
+    stroke-color: #d4bebe;
+    stroke-width: 2px;
+    z-index: 1;
+}
+
+edge {
+    /*text-alignment: along;*/
+    text-size: 20px;
+    text-offset: 0px, 5px;
+    stroke-mode: plain;
+    stroke-width: 1px;
+    stroke-color: black;
+    fill-color: black;
+    arrow-shape: arrow;
+    arrow-size: 20, 7;
+    z-index: 0;
+    shape: L-square-line;
+}
