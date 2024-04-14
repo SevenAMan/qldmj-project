@@ -18,10 +18,14 @@
     <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-
+        <toolWindow factoryClass="org.qldmj.plugin.window.JCEFToolWindow" id="JCEFToolWindow"/>
     </extensions>
 
     <actions>
+        <!-- jcef -->
+        <action class="org.qldmj.plugin.action.JCEFAction" id="jcefSearchAction">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
 
     </actions>
 </idea-plugin>
