@@ -17,6 +17,11 @@
     <depends>com.intellij.java</depends>
     <depends>com.intellij.modules.lang</depends>
 
+    <projectListeners>
+        <!-- open file -->
+        <listener class="org.qldmj.plugin.inlay.MyPluginListener" topic="com.intellij.openapi.fileEditor.FileEditorManagerListener"/>
+    </projectListeners>
+
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="org.qldmj.plugin.window.JCEFToolWindow" id="JCEFToolWindow"/>
     </extensions>
