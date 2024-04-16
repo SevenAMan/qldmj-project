@@ -9,6 +9,9 @@ import java.awt.FlowLayout
 import javax.swing.BoxLayout
 import javax.swing.JPanel
 
+/**
+ * 简单的psi展示（属性，方法和参数，内部类）
+ */
 class MyFileEditorComponent(private val javaFile: PsiJavaFile) : BorderLayoutPanel() {
 
     private val panel = JPanel(FlowLayout(FlowLayout.LEFT, 10, 20))

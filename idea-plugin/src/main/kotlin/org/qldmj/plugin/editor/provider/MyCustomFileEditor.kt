@@ -10,6 +10,9 @@ import com.intellij.psi.PsiManager
 import java.beans.PropertyChangeListener
 import javax.swing.JComponent
 
+/**
+ * 文件的editor视图
+ */
 class MyCustomFileEditor(project: Project, private val virtualFile: VirtualFile) :
     FileEditor {
 
