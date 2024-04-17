@@ -34,5 +34,9 @@
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
         </action>
 
+        <action class="org.qldmj.plugin.database.DSAction" id="DSLoadDriverAction" text="数据源驱动加载">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+
     </actions>
 </idea-plugin>
