@@ -19,13 +19,16 @@
 
     <projectListeners>
         <!-- open file -->
-        <listener class="org.qldmj.plugin.inlay.MyPluginListener" topic="com.intellij.openapi.fileEditor.FileEditorManagerListener"/>
+        <listener class="org.qldmj.plugin.inlay.MyPluginListener"
+                  topic="com.intellij.openapi.fileEditor.FileEditorManagerListener"/>
     </projectListeners>
 
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="org.qldmj.plugin.window.JCEFToolWindow" id="JCEFToolWindow"/>
 
         <fileEditorProvider implementation="org.qldmj.plugin.editor.provider.CustomFileEditorProvider"/>
+
+        <httpRequestHandler implementation="org.qldmj.plugin.rest.MyHttpRestHandler"/>
     </extensions>
 
     <actions>
