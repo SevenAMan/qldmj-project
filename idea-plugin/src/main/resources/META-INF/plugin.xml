@@ -29,6 +29,8 @@
         <fileEditorProvider implementation="org.qldmj.plugin.editor.provider.CustomFileEditorProvider"/>
 
         <httpRequestHandler implementation="org.qldmj.plugin.rest.MyHttpRestHandler"/>
+
+        <codeInsight.lineMarkerProvider language="TEXT" implementationClass="org.qldmj.plugin.line.mark.TextLineMarkerProvider"/>
     </extensions>
 
     <actions>
