@@ -26,7 +26,7 @@ class EnterpriseRepositoryPlugin: Plugin<Gradle> {
                                 this.setUrl(ALI_CENTRAL)
                             }
                             if ( url.startsWith(MAVEN_REPO)) {
-                                this.setUrl(ALI_PUBLIC)
+                                this.setUrl(ALI_CENTRAL)
                             }
                             if (url.startsWith(GRADLE_PLUGIN)) {
                                 this.setUrl(ALI_GRADLE_PLUGIN)
@@ -47,7 +47,7 @@ class EnterpriseRepositoryPlugin: Plugin<Gradle> {
                             this.setUrl(ALI_CENTRAL)
                         }
                         if ( url.startsWith(MAVEN_REPO)) {
-                            this.setUrl(ALI_PUBLIC)
+                            this.setUrl(ALI_CENTRAL)
                         }
                         if (url.startsWith(GRADLE_PLUGIN)) {
                             this.setUrl(ALI_GRADLE_PLUGIN)
