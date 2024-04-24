@@ -10,7 +10,7 @@ group = "org.qldmj"
 version = "0.0.1-SNAPSHOT"
 
 dependencies {
-    api(project(":common"))
+    implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")

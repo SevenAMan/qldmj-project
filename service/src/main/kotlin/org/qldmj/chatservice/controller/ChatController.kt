@@ -1,7 +1,6 @@
 package org.qldmj.chatservice.controller
 
 import jakarta.servlet.http.HttpServletResponse
-import org.qldmj.common.utils.CollectionUtils.getString
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
 
