@@ -4,7 +4,7 @@ plugins {
 }
 
 intellij {
-    version.set("2024.1")
+    version.set("2024.1.1")
     type.set("IC")
     plugins.set(listOf("java"))
 }

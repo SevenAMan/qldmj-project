@@ -5,6 +5,8 @@ import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.actionSystem.LangDataKeys
 import com.intellij.openapi.application.ApplicationManager
+import com.intellij.openapi.progress.ProgressIndicator
+import com.intellij.openapi.progress.Task
 import com.intellij.openapi.wm.ToolWindowManager
 import org.qldmj.plugin.jcef.MyJCEFClient
 
@@ -19,6 +21,13 @@ class JCEFAction : AnAction() {
         ApplicationManager.getApplication().invokeLater {
             ToolWindowManager.getInstance(project).getToolWindow("JCEFToolWindow")?.show()
         }
+
+        object: Task.Backgroundable(project, "Loading JCEF...") {
+            override fun run(indicator: ProgressIndicator) {
+                TODO("Not yet implemented")
+            }
+
+        }.queue()
     }
 
     override fun update(e: AnActionEvent) {
