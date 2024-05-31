@@ -1,3 +1,4 @@
+/*
 package org.qldmj.chatservice.controller
 
 import jakarta.servlet.http.HttpServletResponse
@@ -19,3 +20,4 @@ class ChatController {
         }
     }
 }
+*/

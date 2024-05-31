@@ -33,8 +33,6 @@
         <httpRequestHandler implementation="org.qldmj.plugin.rest.MyHttpRestHandler"/>
 
         <codeInsight.lineMarkerProvider language="TEXT" implementationClass="org.qldmj.plugin.line.mark.TextLineMarkerProvider"/>
-
-        <xdebugger.breakpointType implementation="org.qldmj.plugin.xdebug.XmlLineBreakpointType"/>
     </extensions>
 
     <actions>
