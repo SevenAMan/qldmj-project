@@ -25,6 +25,8 @@ public class TestJanino {
                     subList.add("sub");
                     subList.add("sub2");
                     list.addAll(subList);
+                    String l1 = (String)subList.get(0);
+                    System.out.println(l1);
                     return String.join(", ", list);
                 }
             }
