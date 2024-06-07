@@ -1,4 +1,4 @@
-package xml;
+package org.qldmj.metacode.xml;
 
 public class SubUserBean extends UserBean {
 

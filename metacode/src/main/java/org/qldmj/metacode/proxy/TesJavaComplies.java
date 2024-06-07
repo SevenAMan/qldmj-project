@@ -1,3 +1,5 @@
+package org.qldmj.metacode.proxy;
+
 public class TesJavaComplies {
 
     //编译增加参数 -parameters编译变量名

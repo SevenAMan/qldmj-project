@@ -1,4 +1,4 @@
-package xml;
+package org.qldmj.metacode.xml;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;

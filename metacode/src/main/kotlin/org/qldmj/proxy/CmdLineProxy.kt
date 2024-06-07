@@ -10,7 +10,6 @@ fun main() {
     val gitUser = GitUser(23, "zs", "/user")
 
     val idReceiver0 = gitUser::id
-    val idReceiver1 = GitUser::id
 
     val call0 = idReceiver0.call()
     println(call0)
