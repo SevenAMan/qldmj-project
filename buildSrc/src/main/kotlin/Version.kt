@@ -1,6 +1,6 @@
 
 object KotlinVersion {
-    const val VERSION = "1.9.22"
+    const val VERSION = "2.0.0"
 }
 
 object SpringVersion {

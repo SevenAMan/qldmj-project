@@ -1,10 +1,10 @@
 plugins {
     kotlin("jvm")
-    id("org.jetbrains.intellij") version "1.16.1"
+    id("org.jetbrains.intellij") version "1.17.4"
 }
 
 intellij {
-    version.set("2024.1.1")
+    version.set("2024.1.4")
     type.set("IC")
     plugins.set(listOf("java"))
 }

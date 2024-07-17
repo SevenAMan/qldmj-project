@@ -1,7 +1,7 @@
 package org.qldmj.graphx
 
-import com.mxgraph.swing.mxGraphComponent
 import org.qldmj.graphx.component.BasicGraph
+import org.qldmj.graphx.component.BasicGraphComponent
 import org.qldmj.graphx.component.addEdge
 import org.qldmj.graphx.component.addNode
 import org.qldmj.graphx.data.BasicEdgeValue
@@ -33,7 +33,7 @@ fun main() {
         fromId = n1.id
         toId = n2.id
     }, n1, n2)
-    val component = mxGraphComponent(graph)
+    val component = BasicGraphComponent(graph)
     JFrame("Hello World").apply {
         contentPane.add(component)
         isVisible = true
