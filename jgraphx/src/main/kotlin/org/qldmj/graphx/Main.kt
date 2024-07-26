@@ -27,7 +27,7 @@ fun main() {
         x = 80.0
         y = 80.0
     })
-    val s1 = graph.addEdge(BasicEdgeValue().apply {
+    graph.addEdge(BasicEdgeValue().apply {
         id = "S0001"
         comment = id
         fromId = n1.id

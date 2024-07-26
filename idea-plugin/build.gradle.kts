@@ -29,6 +29,10 @@ tasks {
         token.set(System.getenv("PUBLISH_TOKEN"))
     }
 
+    initializeIntelliJPlugin {
+        selfUpdateCheck.set(false)
+    }
+
 }
 
 kotlin {
